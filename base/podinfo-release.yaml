@@ -4,7 +4,8 @@ metadata:
   name: podinfo
   namespace: apps
 spec:
-  serviceAccountName: dev
+  serviceAccountName: dev-team
+  targetNamespace: apps
   releaseName: podinfo
   chart:
     spec:
